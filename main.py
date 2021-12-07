@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     name = os.environ.get("NAME", "World")
-    return "welcome all..........."
+    return "welcome to homepage..."
 
 
 if __name__ == "__main__":
